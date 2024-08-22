@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.setProperty("WebDriver.chrome.driver", "C:\\Users\\anshulr\\Downloads\\chromedriver-win64 (1).zip");
+        System.setProperty("WebDriver.chrome.driver", "chromedriver-win64.zip");
         //System.setProperty("WebDriver.edge.driver", "C:\\Users\\anshulr\\Downloads\\edgedriver_win64.zip");
 //        Chrome options = new ChromeOptions();
         WebDriver driver = new ChromeDriver();
